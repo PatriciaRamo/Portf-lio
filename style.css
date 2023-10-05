@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+font-family: poppins,sans-serif;
+
+}
+body,html{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:black;
+}
+
+
+.sobre{
+    color: black;
+    background-color: #157c5a;
+}
+
+.text span{
+    color: #0bf11a;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 3px solid #2ecc71;
+    color: #0bf11a;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+.background{
+background : linear-gradient(rgba( 0,0,0,0.5)),(rgba(0,0,0,0.5));
+background-size: cover;
+background-image: url(patricia3.png);
+background-color: rgba(47, 4, 4, 0.897);
+background-position: center;
+height: 100vh ;
+width: 100%;
+}
+
+
+#letra{
+    font-size: 40px;
+    padding: 15px;
+    margin-left: 15px;
+}
+#cv{ 
+color: #fff;
+background: transparent;
+    border: solid 2px  #0bf11a;
+    padding: 5px;
+    border-radius: 15px;
+    font: 12px;
+    width: 150px;
+
+}
+.success{
+color: #ffff00;
+}
+ .error{
+    color: #ff0000;
+ }
+ .success,
+ .error{
+    text-align: center;
+ }
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cabeçalho-link{
+    display: flex;
+    gap:3rem ;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+.final{
+    color: #fff;
+text-align: center;
+width: 100%;
+height: 100vh;
+
+}
+#foto{
+margin-left: -23%;
+
+}
+
+#menu{
+    display: flex;
+    gap:3rem ;
+    font-weight: 300;
+    cursor: pointer;
+}
+span{
+    color: #0bf11a;
+}
+.cabeçalho-link a{
+    color:#fff;
+    font-size :12px ;
+}
+h5{
+    font-size: 25px;
+}
+.cabeçalho-link a:hover{
+    color: #2ecc71;
+    transform: 0.3s all;
+}
+button{
+   color:#fff;
+    border: solid 2px  #0bf11a;
+    background: transparent;
+    padding: 10px 10px ;
+    border-radius: 30px;
+    font: 12px;
+    width: 150px;
+    transition: 0.4s all; 
+    cursor: pointer;
+
+}
+button:hover{
+color:#ffff00;
+
+}
+.me-contate{
+    width: 100%;
+}
+
+
+.text h3{
+  color: #fff;
+  font-size: 15px;
+}
+.text h1{
+    color:#fff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.text p{
+    color: #fff;
+    font-size:25 px;
+    font: weight 300px; ;
+    margin-top: 10px;
+}
+.container-text{
+    padding:150px 0 0 130px ;
+
+}
+
+.redes-socias a{
+   color: #2ecc71;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    width: 40px;
+    border-radius:40% ;
+    font-size: 20px;
+    flex-direction: row;
+
+}
+.fim{
+    color: #0bf11a;
+}
+redes-socias a:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.sobre{
+    color: black;
+    line-height :30px;
+    font-size: 18px;
+    margin-bottom: 40px;
+
+}
+
+#color{
+    color: #fff;
+}
+.text{
+    line-height: 32px;
+}
+.container-projetos{
+    background-color:#101010;
+    width: 100%;
+    padding: 100px 0px;
+
+    
+
+}
+
+
+.caixa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width:992px){
+body,html{
+     overflow-x: hidden;
+}
+}
+.cards{
+    background-color: #191919;
+    height: 360px;
+    width: 360px;
+    border: 20px;
+    border-radius: 25px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cards h5{
+    color:  #0bf11a;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.cards p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+    
+.textos{
+    color: #fff;
+    font-size: 65px;
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+
+.btn:hover{
+    color: yellow;
+
+}
+.me-contate{
+    width: 100%;
+    color: #fff;
+    background-color: #191919;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.me-contate p{
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+}
+h6{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+   color: #fff;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #101010;
+    text-align: center;
+display: flex;
+flex-direction: column;
+}
+footer p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom:15px ;
+    margin-top: 10px;
+    line-height: 10px;
+}
+form{ width: 100%;
+max-width: 30rem;
+}
+#formulario{
+width: 100%;
+max-width: 30rem;
+color: #fff;
+display: grid;
+place-items: center;
+padding: 1rem;
+min-width: 100%;
+
+
+
+
+    
+}
+#forma{
+    width: 100%;
+    padding: 1.25rem;
+    font-weight: 700;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+#forma:disabled{
+    cursor: not-allowed;
+    background: #555b69;
+}
+label,
+input,
+textarea{
+    display: block;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+input,
+textarea,
+button{
+    font: inherit;
+    font-weight: 700;
+}
+input,
+textarea{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: black;
+    border:0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s;
+box-shadow: 0.3s;
+    
+}
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus{
+outline: none;
+border-color: #0bf11a;
+box-shadow: 0 0 0 0.3125rem #0bf11a;
+}
+
+textarea{
+    min-height: 12.5rem;
+    resize: horizontal;
+}
+    
+
+.carrossel{
+    width: 600px;
+    height: 300px;
+    outline: 3px  #191919;
+overflow: hidden;
+color: #0bf11a;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+}
+.carrossel ul{
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    height: 300px;
+
+}
+.carrossel li{
+    position: relative;
+    animation:slide 15s infinite ease-out;
+
+
+}
+@keyframes slide{
+    0%{  left:0px}
+    20%{left: 0px}
+    30%{left: -400px}
+    50%{left: -800px}
+    90%{left:-800px}
+    100%{left: -100px}
+
+}
+#pro{
+    text-align: center;
+}
