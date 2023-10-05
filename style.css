@@ -302,6 +302,10 @@ footer p{
     margin-top: 10px;
     line-height: 10px;
 }
+#cria{
+    text-align: center;
+    color: #fff;
+}
 form{ width: 100%;
 max-width: 30rem;
 }
